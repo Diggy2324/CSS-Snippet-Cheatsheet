@@ -1,0 +1,32 @@
+:root {
+    --text-color: #d92f9e;
+}
+* {
+    text-align: center;
+    background-color: #5a5a5a;
+}
+header h1{
+    color: var(--text-color);
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+.large-box {
+    display: inline-block;
+    border: 2px white dotted;
+    border-radius: 10px;
+}
+
+.large-box p {
+    color: var(--text-color);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+}
+.top-box {
+    display: inline-block;
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 20px 50px;
+    position: relative;
+    offset-position: -10px;
+}
